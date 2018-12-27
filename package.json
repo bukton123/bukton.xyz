@@ -12,11 +12,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "bulma": "^0.7.2",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "firebase-tools": "^6.2.2"
+    "@zeit/next-sass": "^1.0.1",
+    "firebase-tools": "^6.2.2",
+    "node-sass": "^4.11.0"
   }
 }
