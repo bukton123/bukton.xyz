@@ -44,7 +44,7 @@ class Bukton extends React.Component {
         <Header />
         <Intro />
         <Blog />
-        <WhatIdo />
+        {/* <WhatIdo /> */}
         <Footer />
       </div>
     )

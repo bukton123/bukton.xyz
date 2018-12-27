@@ -1,7 +1,6 @@
 import React from 'react'
 
-// import 
-import Card from './Card'
+// import
 
 export default () => {
   return (
@@ -15,10 +14,7 @@ export default () => {
         <div className="columns">
           <div className="column has-text-centered image">
             <div className='column'>
-              <Card />
-            </div>
-            <div className='column'>
-              <Card />
+              <p></p>
             </div>
           </div>
         </div>
