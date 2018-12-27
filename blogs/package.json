@@ -1,0 +1,19 @@
+{
+  "name": "bukton.xyz",
+  "description": "Official website: bukton.xyz",
+  "version": "1.0.0",
+  "repository": "https://github.com/bukton123/bukton.xyz.git",
+  "author": "BukTon <buk_ton2@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
