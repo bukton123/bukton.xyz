@@ -55,3 +55,29 @@ body {
     }
   }
 }
+
+.section-space {
+  margin-top: 40px;
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+
+.site-footer {
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  & .footer-theme-name {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    background-image: -webkit-linear-gradient(left, #96E6C9 0%, #4BC994 100%);
+    background-image: -o-linear-gradient(left, #96E6C9 0%, #4BC994 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#96E6C9), to(#4BC994));
+    background-image: linear-gradient(to right, #96E6C9 0%, #4BC994 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
