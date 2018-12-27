@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import 
-import Card from './Card'
+import BlogCard from './BlogCard'
 
 export default () => {
   return (
@@ -9,13 +9,16 @@ export default () => {
      <div className="container is-fluid">
         <div className="columns">
           <div className="column has-text-centered image">
-            <h2 className="section-title"><strong>What I Do</strong> </h2>
+            <h2 className="section-title"><strong>Blog</strong> </h2>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-centered image">
             <div className='column'>
-              <Card />
+              <BlogCard />
+            </div>
+            <div className='column'>
+              <BlogCard />
             </div>
           </div>
         </div>

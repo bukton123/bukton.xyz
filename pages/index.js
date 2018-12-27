@@ -5,7 +5,8 @@ import Head from 'next/head'
 import MainScript from '../lib/main'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
-import WhatIdo from '../components/WhatIdo' 
+import WhatIdo from '../components/WhatIdo'
+import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 
 // style
@@ -42,6 +43,7 @@ class Bukton extends React.Component {
         {/* <!-- Content --> */}
         <Header />
         <Intro />
+        <Blog />
         <WhatIdo />
         <Footer />
       </div>
