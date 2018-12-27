@@ -1,2 +1,10 @@
 node_modules
 .next
+out
+.DS_Store
+
+# blogs
+blogs/node_modules
+blogs/.next
+blogs/out
+
