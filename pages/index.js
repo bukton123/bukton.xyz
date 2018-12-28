@@ -28,7 +28,7 @@ class Bukton extends React.Component {
         name: 'Buk Ton'
       },
       title: 'bukton.xyz',
-      description: 'bukton.xyz  knowledge sharing',
+      description: 'bukton.xyz knowledge sharing',
       keyword: 'bukton,blog,knowledge,technology,dev,devloper',
       website: 'https://www.bukton.xyz/',
       img: 'https://www.bukton.xyz/static/img/bukton-log.png'
