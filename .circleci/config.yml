@@ -8,7 +8,7 @@ jobs:
   build:
     <<: *defaults
     branches:
-      only: "master"
+      only: "release"
     steps:
       - checkout
 
