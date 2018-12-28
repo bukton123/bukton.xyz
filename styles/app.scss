@@ -67,7 +67,7 @@ body {
 
 .site-footer {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 25px;
 
   & .footer-theme-name {
     font-size: 32px;
@@ -83,11 +83,71 @@ body {
   }
 }
 
-
+.text-color-1 {
+  color: #4BC994;
+}
 .text-author {
   font-weight: 500;
 }
 .text-card {
   margin-top: -1.25rem;
   text-indent: 20px;
+}
+
+.what-i-do {
+  .what-i-do-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0 10px;
+
+    & h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 30px;
+    }
+
+    & p {
+      margin-bottom: 20px;
+    }
+
+    & ul {
+      padding-left: 25px;
+      list-style: none;
+      margin-bottom: 45px;
+
+      & li {
+        margin-bottom: 10px;
+        line-height: 28px;
+        padding-left: 20px;
+        position: relative;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 8px;
+          height: 8px;
+          width: 8px;
+          border-radius: 50%;
+          background: #999;
+        }
+      }
+    }
+  }
+}
+
+.scroll-top {
+  visibility: hidden;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+
+  &.active {
+    visibility: visible;
+  }
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem!important;
 }

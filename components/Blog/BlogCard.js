@@ -17,7 +17,7 @@ export default () => {
               <p class="subtitle is-6 text-card "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phasellus nec iaculis mauris. <a>@bulmaio</a>.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+            Phasellus nec iaculis mauris.
             </p>
             </div>
           </div>

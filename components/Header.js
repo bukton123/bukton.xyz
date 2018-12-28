@@ -49,7 +49,7 @@ export default () => {
               target='_blank'
               href="https://medium.com/@bukton">
               <span className='icon'>
-                <i class="fab fa-medium" />
+                <i className="fab fa-medium" />
               </span>
             </a>
             <a
@@ -57,16 +57,17 @@ export default () => {
               target='_blank'
               href="https://www.facebook.com/buk.ton.3">
               <span className='icon'>
-                <i class="fab fa-facebook" />
+                <i className="fab fa-facebook" />
               </span>
             </a>
-            {/* <div className="navbar-item">
-              <div className="buttons">
-                <a className="button is-primary">
-                  <strong>Log in</strong>
-                </a>
-              </div>
-            </div> */}
+            <a
+              className='navbar-item is-hidden-touch is-hidden-desktop-only'
+              target='_blank'
+              href="mailto:buk_ton2@hotmail.com">
+              <span className='icon'>
+                <i className="far fa-envelope"/>
+              </span>
+            </a>
           </div>
         </div>
       </nav>
