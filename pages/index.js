@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import classname from 'classname'
 
 // import
 import MainScript from '../lib/main'
@@ -9,6 +8,7 @@ import Intro from '../components/Intro'
 import WhatIdo from '../components/WhatIdo'
 import Blog from '../components/Blog'
 import Footer from '../components/Footer'
+import ScrollTop from '../components/App/ScrollTop'
 
 // style
 import '../styles/styles.scss'
@@ -18,31 +18,9 @@ class Bukton extends React.Component {
     return {ddd: 'sss'}
   }
 
-  state = {
-    scrollHeigth: 0,
-    hidden: true
-  }
-
   componentDidMount () {
     MainScript()
-    this.setScroll()
-    window.onscroll = this.onScroll
   }
-
-  setScroll = () => {
-    this.setState({ scrollHeigth: (document.documentElement.scrollHeight || document.body.scrollHeight) * 20 / 100 })
-  }
-
-  onScroll = () => {
-    const scrollCurrent = document.documentElement.scrollTop || document.body.scrollTop
-    if (scrollCurrent > this.state.scrollHeigth && this.state.hidden) {
-      this.setState({ hidden: false })
-    } else if (scrollCurrent < this.state.scrollHeigth && !this.state.hidden) {
-      this.setState({ hidden: true })
-    }
-  }
-
-  scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 
   render () {
     return (
@@ -70,9 +48,7 @@ class Bukton extends React.Component {
         <Blog />
         <WhatIdo />
         <Footer />
-        <div className={classname('scroll-top', { 'active': !this.state.hidden })} >
-          <button onClick={this.scrollTop} className='button is-primary' >SCROLL TO TOP</button>
-        </div>
+        <ScrollTop />
       </div>
     )
   }
