@@ -30,7 +30,7 @@ export default class ScrollTop extends React.Component {
   render () {
     return (
       <div className={classname('scroll-top', { 'active': !this.state.hidden })} >
-        <button onClick={this.scrollTop} className='button is-primary' >SCROLL TO TOP</button>
+        <button onClick={this.scrollTop} className='button is-primary' style={{ fontSize: 12 }} >SCROLL TO TOP</button>
       </div>
     )
   }
