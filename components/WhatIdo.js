@@ -5,7 +5,7 @@ import React from "react";
 export default () => {
   return (
     <section className="section-space what-i-do">
-      <div className="container">
+      <div className="container is-fluid">
         <div className="columns">
           <div className="column has-text-centered">
             <h2 className="section-title">
@@ -15,103 +15,68 @@ export default () => {
         </div>
         <div className="columns">
           <div className="column">
-            <div class="what-i-do-content">
-              <h3>User Svission</h3>
+            <div className="what-i-do-content">
+              <h3></h3>
 
-              <p class="mb-5">
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nice one
-                ph my good sir blower bloke it's all gone to pot bugger all mate
-                you mug chancer victoria sponge the little rotter faff about
-                golly gosh bodge up the duff Elizabeth excuse my French cockup
-                spiffing good time car boot wellies so I said baking cakes a
-                amongst it's your round blow off vagabond zonked boot bits and
-                bobs geeza cracking goal mug chancer victoria sponge the little
-                rotter faff about golly gosh mug chancer victoria sponge the
-                little rotter
+              <p className="mb-5"  style={{ textIndent: 30 }}>
+                ปัจจุบันผมเป็น Developer คนหนึ่งที่หลงไหลในการเขียนโปรเเกรมไม่ว่าจะเป็น frontend, backend เเละ infrastructure เป็นคนชอบทำอะไรไปเรื่อยอยู่ว่างไม่ได้ต้องหาอะไรทำ จนมีคติประจำใจที่ว่า
+                "อย่าพูดว่าทำไม่ได้คิดไม่ออก ถ้ายังไม่เริ่มลงมือทำ" ผมคิดว่าโลกของโปรเเกรมเมอร์มันสวยเสมอ เเม้จะต้องฟันฝ่าอุปสรรคอะไรมากมายกว่าจะมาถึงจุดนนี้ได้ ผมได้เริ่มทำสิ่งที่ตัวเองรักเเละสิ่งที่ตัวเองชอบหลายๆอย่าง
+                เหมือนกับว่าเป็นส่วนหนึ่งของชีวิตเข้าไปเเล้วฮ่าๆ 
               </p>
 
-              <h3>Copyright</h3>
+              <h3>เป้าหมาย bukton.xyz</h3>
 
               <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot wellies so I said baking cakes blow off
-                vagabond zonked boot bits and bobs geeza cracking
+                การที่เราจะเริ่มทำอะไรสักอย่างเราจะเกิดความคาดหวังเล็กๆน้อยๆ หรือเป้าหมายที่เราอยากให้เป็นไปตามความคาดหวังของเรา bukton.xyz สร้างขึ้นมาเพราะว่าผมอยากมีเว็บไซต์เป็นของตัวเองเป็นเว็บไซต์เล็กๆ
+                ที่ใครๆก็ได้สามารถเข้าถึงได้ทุกที่ เเละเป็นประโยชน์ต่อคนอื่นให้มากที่สุด ในปัจจุบันผมชอบ mini lab, ทดลองอะไรใหม่ๆรวมไปถึงการ research งานที่เป็นประโยชน์ต่อการทำงานในปัจจุบัน เพื่อสร้างความเข้าใจ ความมั่นใจในการทำงาน
+                หรือเพื่อเเก้ปัญหาของงานที่เกิดขึ้นผมเลยมีเเนวคิดที่ว่า เมื่อเวลาทำอะไรจะเขียนเป็นบทความเล็กๆ เพื่อใช้เป็นคลังความรู้ เตือนความจำที่ผ่านมาได้ทำอะไรบ้าง เเละสามารถส่งต่อความรู้ให้กับผู้อื่นได้ด้วยเช่นกัน
+                หากผมผิดพลาดประการใดหรือเข้าใจผิดส่วนไหน ผมน้อมรับคำติชมหรือการเเก้ไขให้ดีขึ้น
               </p>
 
               <ul>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug chancer victoria sponge the little rotter
-                  faff about golly gosh bodge up the duff Elizabeth excuse my
-                  French cockup spiffin.
+                  เเชร์ความรู้เเละประสบการณ์ที่ผ่านมา
                 </li>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
-                </li>
-                <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
+                  เป็นคลังความรู้เล็กๆที่สามารถสร้างประโยชน์ให้กับผู้อื่นได้
                 </li>
               </ul>
 
-              <h3>Advertising and sponsorship</h3>
+              <h3>ทำไมต้อง bukton.xyz</h3>
 
               <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot
+                เป็นช่วงระหว่างฝึกงานซึ่งมี domain ที่เกิดขึ้นมาใหม่ชื่อ xyz ทำให้รู้สึกอยากได้ รู้สึกว่ามันเจ๋ง มันว้าวววมาก (ความคิดตอนนั้น) เเละก็อยากมีเว็บไซต์เล็กๆเป็นของตัวเองด้วย 
+                เป็นเหตุผลที่ทำให้มีเว็บไซต์ชื่อ bukton.xyz
               </p>
 
-              <p class="mb-5">
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug.
-              </p>
-
-              <h3>Variations</h3>
+              <h3> เราใช้อะไรบ้าง ที่ bukton.xyz </h3>
 
               <ul>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug chancer victoria sponge the little rotter
-                  faff about golly gosh bodge up the duff Elizabeth excuse my
-                  French cockup spiffin.
+                  React เป็น frontend framework ตัวหนึ่งที่ได้รับความนิยมลำดับต้นๆของการทำเว็บไซต์ในปัจจุบัน (ปล. ผมเลือกตัวที่ผมถนัดที่สุด)
                 </li>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
+                  Next.js เครื่องมือที่ทำให้เราสามารถสร้าง static web ด้วย React อย่างง่ายดาย
+                </li>
+                <li>
+                  Bulma เป็น css framework ที่ผมเลือกมาใช้เพราะว่าอยากได้ css ขนาดเล็ก option ไม่เยอะมาก
+                </li>
+                <li>
+                  Scss น่าสนใจมากทำให้ผมรู้สึกว่าผมสามารถเขียน css สนุกขึ้น หลงไหลเลยเเหละค๊าฟฟฟ
+                </li>
+                <li>
+                  Firebase สำคัญมากขาดไม่ได้เลย ซึ่งปัจจุบันผมจะใช้ในส่วนของ firebase hosting เท่านั้น
+                </li>
+                <li>
+                  Netlify คล้ายกับ Firebase hosting ข้อดีมีระบบ ci ให้ด้วย ทำให้การ deploy เป็นเรื่องง่ายเเค่คุณ "คลิก"
+                </li>
+                <li>
+                  Circleci เป็น ci/cd tools ตัวหนึ่งที่ดีมากสำหรับผู้เริ่มต้นใช้งานได้ง่าย ทำ config นิดๆหน่อยๆ พร้อมทำงาน
+                </li>
+                <li>
+                  Git Hub Repo: <a href='https://github.com/bukton123/bukton.xyz' > คลิก </a>
                 </li>
               </ul>
-
-              <h3>Notices</h3>
-
-              <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot
-              </p>
             </div>
           </div>
         </div>
