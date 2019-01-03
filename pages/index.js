@@ -15,7 +15,7 @@ import '../styles/styles.scss'
 
 class Bukton extends React.Component {
   static getInitialProps (ctx) {
-    return {ddd: 'sss'}
+    return {}
   }
 
   componentDidMount () {
@@ -41,7 +41,8 @@ class Bukton extends React.Component {
 
           {/* <!-- Favicon--> */}
           <link rel="icon" href="/static/img/logo.png" type="image/png" />
-          
+          <link ref="manifest" href="/static/manifest.json" />
+
           {/* <!-- Meta --> */}
           <meta charset="UTF-8" />
           <meta name="author" content={ data.author.name } />

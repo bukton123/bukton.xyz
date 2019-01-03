@@ -5,7 +5,7 @@ import React from "react";
 export default () => {
   return (
     <section className="section-space what-i-do">
-      <div className="container">
+      <div className="container is-fluid">
         <div className="columns">
           <div className="column has-text-centered">
             <h2 className="section-title">
@@ -15,20 +15,11 @@ export default () => {
         </div>
         <div className="columns">
           <div className="column">
-            <div class="what-i-do-content">
-              <h3>User Svission</h3>
+            <div className="what-i-do-content">
+              <h3></h3>
 
-              <p class="mb-5">
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nice one
-                ph my good sir blower bloke it's all gone to pot bugger all mate
-                you mug chancer victoria sponge the little rotter faff about
-                golly gosh bodge up the duff Elizabeth excuse my French cockup
-                spiffing good time car boot wellies so I said baking cakes a
-                amongst it's your round blow off vagabond zonked boot bits and
-                bobs geeza cracking goal mug chancer victoria sponge the little
-                rotter faff about golly gosh mug chancer victoria sponge the
-                little rotter
+              <p className="mb-5"  style={{ textIndent: 30 }}>
+                ปัจจุบันผมเป็น Developer คนหนึ่งที่หลงไหลในการเขียนโปรเเกรมไม่ว่าจะเป็น frontend, backend เเละ infrastructure  
               </p>
 
               <h3>Copyright</h3>
@@ -66,52 +57,41 @@ export default () => {
                 </li>
               </ul>
 
-              <h3>Advertising and sponsorship</h3>
+              <h3>ทำไมต้อง bukton.xyz</h3>
 
               <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot
+                เป็นช่วงระหว่างฝึกงานซึ่งมี domain ที่เกิดขึ้นมาใหม่ชื่อ xyz ทำให้รู้สึกอยากได้ รู้สึกว่ามันเจ๋ง มันว้าวววมาก (ความคิดตอนนั้น) เเละก็อยากมีเว็บไซต์เล็กๆเป็นของตัวเองด้วย 
+                เป็นเหตุผลที่ทำให้มีเว็บไซต์ชื่อ bukton.xyz
               </p>
 
-              <p class="mb-5">
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug.
-              </p>
-
-              <h3>Variations</h3>
+              <h3> เราใช้อะไรบ้าง ที่ bukton.xyz </h3>
 
               <ul>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug chancer victoria sponge the little rotter
-                  faff about golly gosh bodge up the duff Elizabeth excuse my
-                  French cockup spiffin.
+                  React เป็น frontend framework ตัวหนึ่งที่ได้รับความนิยมลำดับต้นๆของการทำเว็บไซต์ในปัจจุบัน (ปล. ผมเลือกตัวที่ผมถนัดที่สุด)
                 </li>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
+                  Next.js เครื่องมือที่ทำให้เราสามารถสร้าง static web ด้วย React อย่างง่ายดาย
+                </li>
+                <li>
+                  Bulma เป็น css framework ที่ผมเลือกมาใช้เพราะว่าอยากได้ css ขนาดเล็ก option ไม่เยอะมาก
+                </li>
+                <li>
+                  Scss น่าสนใจมากทำให้ผมรู้สึกว่าผมสามารถเขียน css สนุกขึ้น หลงไหลเลยเเหละค๊าฟฟฟ
+                </li>
+                <li>
+                  Firebase สำคัญมากขาดไม่ได้เลย ซึ่งปัจจุบันผมจะใช้ในส่วนของ firebase hosting เท่านั้น
+                </li>
+                <li>
+                  Netlify คล้ายกับ Firebase hosting ข้อดีมีระบบ ci ให้ด้วย ทำให้การ deploy เป็นเรื่องง่ายเเค่คุณ "คลิก"
+                </li>
+                <li>
+                  Circleci เป็น ci/cd tools ตัวหนึ่งที่ดีมากสำหรับผู้เริ่มต้นใช้งานได้ง่าย ทำ config นิดๆหน่อยๆ พร้อมทำงาน
+                </li>
+                <li>
+                  Git Hub Repo: <a href='https://github.com/bukton123/bukton.xyz' > คลิก </a>
                 </li>
               </ul>
-
-              <h3>Notices</h3>
-
-              <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot
-              </p>
             </div>
           </div>
         </div>
