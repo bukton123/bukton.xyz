@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 // import 
-import MainScript from '../lib/main'
+import MainScript from '../helpers/main'
 import Header from '../components/Header'
 
 // style
