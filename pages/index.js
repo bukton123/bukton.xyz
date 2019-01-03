@@ -14,7 +14,6 @@ class Bukton extends React.Component {
   }
 
   render () {
-    
     return (
       <div>
         <Intro />
