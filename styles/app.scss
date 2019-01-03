@@ -148,10 +148,6 @@ body {
   }
 }
 
-.mb-5, .my-5 {
-  margin-bottom: 3rem!important;
-}
-
 // error page
 .error-page {
   .logo-center {
@@ -167,5 +163,15 @@ body {
   .err-code {
     font-size: 28px;
     font-weight: 400;
+  }
+}
+
+// blog found
+.blog-found {
+  .found-logo {
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

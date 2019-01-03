@@ -2,6 +2,7 @@ import React from 'react'
 
 // import 
 import BlogCard from './BlogCard'
+import BlogFound from './Found'
 
 export default () => {
   return (
@@ -14,11 +15,11 @@ export default () => {
         </div>
         <div className="columns">
           <div className="column has-text-centered image">
-            <div className='column'>
+            {/* <div className='column'>
               <BlogCard />
-            </div>
+            </div> */}
             <div className='column'>
-              <BlogCard />
+              <BlogFound />
             </div>
           </div>
         </div>
