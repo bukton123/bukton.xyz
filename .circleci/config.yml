@@ -1,1 +1,36 @@
+defaults: &defaults
+    docker:
+      - image: circleci/node:8.11-browsers
+    working_directory: ~/repo
+
 version: 2
+jobs:
+  build:
+    <<: *defaults
+    branches:
+      only: "release"
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: 
+          name: intall package
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      
+      - run:
+          name: Build & export  WebSite
+          command: yarn build && yarn export
+       
+      - run:
+          name: Deploy to firebase.
+          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN

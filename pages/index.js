@@ -1,39 +1,29 @@
 import React from 'react'
-import Head from 'next/head'
 
 // import
-import MainScript from '../lib/main'
+import MainLayout from '../components/layout'
+import Intro from '../components/Intro'
+import WhatIdo from '../components/WhatIdo'
+import Blog from '../components/Blog'
+import Footer from '../components/Footer'
+import ScrollTop from '../components/App/ScrollTop'
 
 class Bukton extends React.Component {
   static getInitialProps (ctx) {
-    return {ddd: 'sss'}
+    return {}
   }
 
-  componentDidMount () {
-    MainScript()
-  }
   render () {
     return (
       <div>
-        <Head>
-          {/* <!-- Title--> */}
-          <title>bukton.xyz</title>
-
-          {/* <!-- Favicon--> */}
-          <link rel="icon" href="" type="image/png" />
-          
-          {/* <!-- Meta --> */}
-          <meta charset="UTF-8" />
-          <meta name="author" content="bukton.xyz" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"/>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131386587-1"></script>
-        </Head>
-        <div>Welcome to bukton.xyz!</div>
+        <Intro />
+        <Blog />
+        <WhatIdo />
+        <Footer />
+        <ScrollTop />
       </div>
     )
   }
 }
 
-export default Bukton
+export default MainLayout(Bukton)

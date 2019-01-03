@@ -1,0 +1,16 @@
+{
+  "name": "bukton.xyz",
+  "short_name": "BukTon",
+  "description": "bukton.xyz knowledge sharing",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/static/img/bukton512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
