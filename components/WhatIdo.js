@@ -19,41 +19,26 @@ export default () => {
               <h3></h3>
 
               <p className="mb-5"  style={{ textIndent: 30 }}>
-                ปัจจุบันผมเป็น Developer คนหนึ่งที่หลงไหลในการเขียนโปรเเกรมไม่ว่าจะเป็น frontend, backend เเละ infrastructure  
+                ปัจจุบันผมเป็น Developer คนหนึ่งที่หลงไหลในการเขียนโปรเเกรมไม่ว่าจะเป็น frontend, backend เเละ infrastructure เป็นคนชอบทำอะไรไปเรื่อยอยู่ว่างไม่ได้ต้องหาอะไรทำ จนมีคติประจำใจที่ว่า
+                "อย่าพูดว่าทำไม่ได้คิดไม่ออก ถ้ายังไม่เริ่มลงมือทำ" ผมคิดว่าโลกของโปรเเกรมเมอร์มันสวยเสมอ เเม้จะต้องฟันฝ่าอุปสรรคอะไรมากมายกว่าจะมาถึงจุดนนี้ได้ ผมได้เริ่มทำสิ่งที่ตัวเองรักเเละสิ่งที่ตัวเองชอบหลายๆอย่าง
+                เหมือนกับว่าเป็นส่วนหนึ่งของชีวิตเข้าไปเเล้วฮ่าๆ 
               </p>
 
-              <h3>Copyright</h3>
+              <h3>เป้าหมาย bukton.xyz</h3>
 
               <p>
-                A blinding shot absolutely bladdered buggered brown bread
-                squiffy my lady pardon you on your bike mate matie boy nicy good
-                sir blower bloke it's all gone to pot bugger all mate you mug
-                chancer victoria sponge the little rotter faff about golly gosh
-                bodge up the duff Elizabeth excuse my French cockup spiffing
-                good time car boot wellies so I said baking cakes blow off
-                vagabond zonked boot bits and bobs geeza cracking
+                การที่เราจะเริ่มทำอะไรสักอย่างเราจะเกิดความคาดหวังเล็กๆน้อยๆ หรือเป้าหมายที่เราอยากให้เป็นไปตามความคาดหวังของเรา bukton.xyz สร้างขึ้นมาเพราะว่าผมอยากมีเว็บไซต์เป็นของตัวเองเป็นเว็บไซต์เล็กๆ
+                ที่ใครๆก็ได้สามารถเข้าถึงได้ทุกที่ เเละเป็นประโยชน์ต่อคนอื่นให้มากที่สุด ในปัจจุบันผมชอบ mini lab, ทดลองอะไรใหม่ๆรวมไปถึงการ research งานที่เป็นประโยชน์ต่อการทำงานในปัจจุบัน เพื่อสร้างความเข้าใจ ความมั่นใจในการทำงาน
+                หรือเพื่อเเก้ปัญหาของงานที่เกิดขึ้นผมเลยมีเเนวคิดที่ว่า เมื่อเวลาทำอะไรจะเขียนเป็นบทความเล็กๆ เพื่อใช้เป็นคลังความรู้ เตือนความจำที่ผ่านมาได้ทำอะไรบ้าง เเละสามารถส่งต่อความรู้ให้กับผู้อื่นได้ด้วยเช่นกัน
+                หากผมผิดพลาดประการใดหรือเข้าใจผิดส่วนไหน ผมน้อมรับคำติชมหรือการเเก้ไขให้ดีขึ้น
               </p>
 
               <ul>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug chancer victoria sponge the little rotter
-                  faff about golly gosh bodge up the duff Elizabeth excuse my
-                  French cockup spiffin.
+                  เเชร์ความรู้เเละประสบการณ์ที่ผ่านมา
                 </li>
                 <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
-                </li>
-                <li>
-                  A blinding shot absolutely bladdered buggered brown bread
-                  squiffy my lady pardon you on your bike mate matie boy nice
-                  one ph my good sir blower bloke it's all gone to pot bugger
-                  all mate you mug.
+                  เป็นคลังความรู้เล็กๆที่สามารถสร้างประโยชน์ให้กับผู้อื่นได้
                 </li>
               </ul>
 
