@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default () => {
 
@@ -6,9 +7,11 @@ export default () => {
     <section className="header">
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bukton.xyz">
-            <img src="/static/img/logo.png" width="30" />
-          </a>
+          <Link href="/">
+            <a className="navbar-item">
+              <img src="/static/img/logo.png" width="30" />
+            </a>
+          </Link>
 
           {/* <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -19,9 +22,11 @@ export default () => {
 
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item">
-              Home
-            </a>
+            <Link href="/">
+              <a className="navbar-item">
+                Home
+              </a>
+            </Link>
             <a className="navbar-item" href="http://blog.bukton.xyz">
               Blog
             </a>
