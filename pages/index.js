@@ -54,7 +54,7 @@ class Bukton extends React.Component {
           <link ref="manifest" href="/static/manifest.json" />
 
           {/* <!-- Meta --> */}
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta name="author" content={ data.author.name } />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -78,7 +78,9 @@ class Bukton extends React.Component {
 
           {/* <!-- style & script --> */}
           <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"/>
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossOrigin="anonymous"/>
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131386587-1" />
         </Head>
         
